@@ -9,7 +9,7 @@ class ManDb < Formula
 	depends_on "libpipeline"
 	depends_on "gettext"
 	depends_on "zstd" => :optional
-	uses_from_macos "groff"
+	depends_on "groff"
 	uses_from_macos "zlib"
 
 	livecheck do
